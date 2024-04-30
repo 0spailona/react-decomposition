@@ -1,0 +1,22 @@
+.module {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 1;
+    gap: 0.5rem;
+}
+
+.moduleImage {
+    width: 150px;
+    height: 150px;
+}
+
+.moduleTitle {
+    color: mediumblue;
+    font-weight: bold;
+}
+
+.moduleText {
+    font-size: 0.8rem;
+    text-wrap: wrap;
+}

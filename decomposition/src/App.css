@@ -1,0 +1,56 @@
+.rootContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrp {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    min-width: 800px;
+    width: 1200px;
+    max-height: 100vh;
+    padding: 2rem 0;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+
+.mainPadding {
+    padding-left: 150px;
+}
+
+
+.newsAndModule {
+    display: flex;
+    gap: 3rem;
+}
+
+.bannerWrp {
+    margin: 2rem 0;
+    padding-right: 210px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.cardsInfo {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cardBody {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+
+.inColumn.inColumn {
+    flex-direction: column;
+    gap: 0.2rem;
+}

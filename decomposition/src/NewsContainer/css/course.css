@@ -1,0 +1,15 @@
+.course {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.courseName {
+    text-transform: uppercase;
+    color: inherit;
+    font-size: 1rem;
+    text-wrap: nowrap;
+}
+
+.progressCourse {
+    opacity: 0.5;
+}

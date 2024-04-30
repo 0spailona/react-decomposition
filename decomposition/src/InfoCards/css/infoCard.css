@@ -1,0 +1,19 @@
+.infoCard {
+    width: 25%;
+}
+
+.cardHeader {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.cardTitle {
+    color: mediumblue;
+    font-size: 1rem;
+}
+
+.cardBanner {
+    width: 30%;
+    height: 20px;
+}

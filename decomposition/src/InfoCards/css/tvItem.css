@@ -1,0 +1,8 @@
+.tvItem {
+    display: flex;
+    gap: 1rem;
+}
+
+.canal {
+    opacity: 0.5;
+}

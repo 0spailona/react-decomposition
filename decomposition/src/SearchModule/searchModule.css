@@ -1,0 +1,56 @@
+.searchFiltersList {
+    display: flex;
+    gap: 1rem;
+}
+
+.searchFilter {
+    color: mediumblue;
+    font-size: 1rem;
+}
+
+
+.logoAndSearchForm {
+    display: flex;
+    gap: 20px;
+    padding-right: 140px;
+}
+
+.logo {
+    width: 130px;
+    font-size: 2rem;
+    align-self: center;
+}
+
+.searchForm {
+    align-self: center;
+    border: 2px solid #FFE91F;
+    flex: 1;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.searchInput {
+    border: none;
+    height: 1rem;
+    padding-left: 0.5rem;
+    flex: 1;
+}
+
+.searchFormBtn {
+    border: none;
+    background-color: #FFE91F;
+    width: 70px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.underFormText {
+    font-size: 0.8rem;
+}
+
+.randomText {
+    font-size: 0.8rem;
+    opacity: 0.5;
+}

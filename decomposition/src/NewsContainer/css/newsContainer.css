@@ -1,0 +1,59 @@
+.newsContainer {
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.headerNewsContain {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filterLink {
+    font-size: 1rem;
+    font-weight: bold;
+    color: mediumblue;
+    opacity: 0.5;
+}
+
+.filterLink.active {
+    opacity: 1;
+}
+
+.filterLink:hover {
+    opacity: 1;
+}
+
+.date {
+    color: inherit;
+    opacity: 0.3;
+}
+
+.newsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 130px;
+    overflow-y: hidden;
+}
+
+.news {
+    display: flex;
+    gap: 10px;
+}
+
+.newsIcon {
+    width: 10px;
+    height: auto;
+}
+
+.courses {
+    display: flex;
+    gap: 1.5rem;
+    box-sizing: border-box;
+    overflow-x: clip;
+}

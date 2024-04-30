@@ -1,0 +1,19 @@
+.streamItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.playStreamBtn {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #84B5F1;
+    background-image: url("/circle-question-regular.svg");
+}
+
+.topicStream {
+    opacity: 0.5;
+}
